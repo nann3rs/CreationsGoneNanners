@@ -1,0 +1,105 @@
+main {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+nav {
+    background-color: rgb(6, 101, 103);
+    width: 17em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgray;
+    font-size: 10pt;
+}
+
+nav ul li {
+    border-style: double;
+    border-spacing: inherit;
+    border-width: 2px;
+    border-color: lightgray;
+    text-align: center;
+    margin-right: 4em;
+    cursor: pointer;
+}
+nav ul li:hover {
+    background-color: white;
+}
+
+.dropbutton {
+    background-color: rgb(6, 101, 103);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-top: 50px;;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.headImage {
+    max-height: 80em;
+    image-orientation: from-image;
+}
+
+.footer {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.explore {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 1em;
+    image-orientation: from-image;
+}
+
+.card img {
+    width: 300px;
+    height: 400px;
+}
+
+#square {
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+.item-content {
+    display: none;
+}
+
+#item-12 {
+    display: block;
+}
